@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mishcon de Reya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="site-header">
+            <div class="dropdown">
+                <button id="dropdownBtn" class="dropbtn">Related sites</button>
+                <div class="dropdown-content" id="dropdownContent">
+                    <div class="contenido">
+                        <div class="left-content" id="leftContent">
+
+                            <!-- Aparece este contenido por defecto y luego va cambiando según pases el ratón por el enlace-->
+
+                            <div class="dropdownImage">
+                                <img src="images/3.jpg" alt="Imagen" class="imageClass">
+                            </div>
+                            <div class="textContent">
+                                <div class="dropdownTitle">
+                                    <p>Karas So LLP</p>
+                                </div>
+                                <div class="dropdownText">
+                                    <p>Karas So LLP's disputes and investigations practice focuses on high value,
+                                        complex issues including those arising from corporate collapses, audit and other
+                                        professional negligence, shareholder disputes and commercial fraud.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="center-content" id="centerContent">
+                            <ul id="list1">
+                                <li><a href="#" onmouseover="changeContent(0)" class="related-site">Karas So LLP</a></li>
+                                <li><a href="#" onmouseover="changeContent(1)" class="related-site">Taylor Vinters</a></li>
+                                <li><a href="#" onmouseover="changeContent(2)" class="related-site">MDR BrandManagement</a></li>
+                                <li><a href="#" onmouseover="changeContent(3)" class="related-site">MDR Mayfair</a></li>
+                                <li><a href="#" onmouseover="changeContent(4)" class="related-site">MDR Lab</a></li>
+                            </ul>
+                        </div>
+                        <div class="right-content" id="rightContent2">
+                            <ul id="list2">
+                                <li><a href="#" onmouseover="changeContent(5)" class="related-site">MDRx</a></li>
+                                <li><a href="#" onmouseover="changeContent(6)" class="related-site">MDR ONE</a></li>
+                                <li><a href="#" onmouseover="changeContent(7)" class="related-site">MDR Research</a></li>
+                                <li><a href="#" onmouseover="changeContent(8)" class="related-site">MDR Solutions I</a></li>
+                                <li><a href="#" onmouseover="changeContent(9)" class="related-site">MDR Ventures</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-bar">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!--/*--- Nav1 ---*/-->
+        <nav id="nav1" class="nav1">
+
+            <!--diseño para responsive-->
+            <div class="nav1Responsive">
+                <div class="menu-button" id="btnAbrirMenu">
+                    <i class="fas fa-list" style="color: #ffffff;"></i>
+                </div>
+                <div class="logo2">
+                    <a href="mishcon.html" id="logo2"><img src="images/logo2.png" alt="Logo2"></a>
+                </div>
+            </div>
+
+            <div id="menuDesplegable">
+                <button id="btnCerrarMenu">&times;</button>
+                <ul id="elementosMenu">
+                  <li>All</li>
+                  <li>Services</li>
+                  <li>About Us</li>
+                  <li>People</li>
+                  <li>Latest</li>
+                  <li>Join us</li>
+                  <li>Contact us</li>
+                </ul>
+              </div>
+            <!---->
+
+            
+
+            <div class="content--nav1">
+                <div class="logo">
+                    <a href="mishcon.html" id="logo-link"><img src="images/logo.png" alt="Logo"></a>
+                </div>
+                <div class="navigation">
+                    <ul id="list_navigation">
+                        <li class="dropdown2">
+                            <a href="#">Services</a>
+                            <div class="dropdown-content2" id="dropdownContentAbout2">
+                                <div class="contenido-about2"
+                                    onmouseleave="hideDiv(container_dispute); hideDiv(container_employ); hideDiv(container_future); hideDiv(container_private)">
+                                    <div class="about-links2">
+                                        <ul id="list-about-links2">
+                                            <li><a href="#"
+                                                    onmouseover="showDiv(container_dispute); hideDiv(container_employ); hideDiv(container_future); hideDiv(container_private)"
+                                                    style="cursor: pointer;">Dispute
+                                                    Resolution</a></li>
+                                            <div id="container_dispute" onmouseover="showDiv(container_dispute)"
+                                                onmouseleave="hideDiv(container_dispute)">
+                                                <div id="sub-container-dispute">
+                                                    <div id="links_dispute">
+                                                        <div class="links-column_dispute">
+                                                            <a href="#">Anti Money Laundering</a>
+                                                            <a href="#">Charities, Social Ventures and Philanthropy</a>
+                                                            <a href="#">Commercial Litigation</a>
+                                                            <a href="#">Competition Law</a>
+                                                            <a href="#">Construction</a>
+                                                            <a href="#">Director and Shareholder Disputes</a>
+                                                            <a href="#">Extradition</a>
+                                                            <a href="#">Health and Safety</a>
+                                                            <a href="#">Finance and Banking Disputes</a>
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Fraud</a>
+                                                            <a href="#">Insolvency and Restructuring</a>
+                                                            <a href="#">Insurance</a>
+                                                            <a href="#">Private Wealth Disputes</a>
+                                                        </div>
+                                                    </div>
+                                                    <div id="links_dispute">
+                                                        <div class="links-column_dispute">
+                                                            <a href="#">Anti Money Laundering</a>
+                                                            <a href="#">Insolvency and Restructuring</a>
+                                                            <a href="#">Insurance</a>
+                                                            <a href="#">Private Wealth Disputes</a>
+                                                            <a href="#">Extradition</a>
+                                                            <a href="#">Health and Safety</a>
+                                                            <a href="#">Finance and Banking Disputes</a>
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Charities, Social Ventures and Philanthropy</a>
+                                                            <a href="#">Commercial Litigation</a>
+                                                            <a href="#">Competition Law</a>
+                                                            <a href="#">Construction</a>
+                                                            <a href="#">Director and Shareholder Disputes</a>
+                                                            <a href="#">Fraud</a>
+                                                        </div>
+                                                    </div>
+                                                    <div id="images_dispute">
+                                                        <div class="image-with-text_dispute">
+                                                            <img src="images/3.jpg" alt="Imagen 1">
+                                                            <div class="text">
+                                                                <h5>Data</h5>We defend the data rights of businesses and
+                                                                individuals.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_dispute">
+                                                            <img src="images/4.jpg" alt="Imagen 2">
+                                                            <div class="text">
+                                                                <h5>Investigations</h5>Intelligent and incisive,
+                                                                minimising disruption in high-stakes situations.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_dispute">
+                                                            <img src="images/5.jpg" alt="Imagen 3">
+                                                            <div class="text">
+                                                                <h5>Regulatory</h5>We understand the high stakes
+                                                                involved in building the right regulatory strategy.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_dispute">
+                                                            <img src="images/15.jpg" alt="Imagen 4">
+                                                            <div class="text">
+                                                                <h5>Mishcon Purpose</h5>Managing risk, creating value,
+                                                                transitioning to sustainability.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <li><a href="#"
+                                                    onmouseover="showDiv(container_employ); hideDiv(container_dispute); hideDiv(container_future); hideDiv(container_private)"
+                                                    style="cursor: pointer;">Employement</a></li>
+                                            <div id="container_employ" onmouseover="showDiv(container_employ)"
+                                                onmouseleave="hideDiv(container_employ)">
+                                                <div id="sub-container_employ">
+                                                    <div id="links_employ">
+                                                        <div class="links-column_employ">
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Fraud</a>
+                                                            <a href="#">Insolvency and Restructuring</a>
+                                                            <a href="#">Charities, Social Ventures and Philanthropy</a>
+                                                            <a href="#">Competition Law</a>
+                                                            <a href="#">Construction</a>
+                                                            <a href="#">Extradition</a>
+                                                        </div>
+                                                        <div class="links-column_employ">
+                                                            <a href="#">Health and Safety</a>
+                                                            <a href="#">Finance and Banking Disputes</a>
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Fraud</a>
+                                                            <a href="#">Insolvency and Restructuring</a>
+                                                            <a href="#">Insurance</a>
+                                                            <a href="#">Private Wealth Disputes</a>
+                                                        </div>
+                                                        <div class="links-column_employ">
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Fraud</a>
+                                                            <a href="#">Insolvency and Restructuring</a>
+                                                            <a href="#">Charities, Social Ventures and Philanthropy</a>
+                                                            <a href="#">Commercial Litigation</a>
+                                                            <a href="#">Competition Law</a>
+                                                            <a href="#">Construction</a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="images_employ">
+                                                        <div class="image-with-text_employ">
+                                                            <img src="images/3.jpg" alt="Imagen 1">
+                                                            <div class="text">
+                                                                <h5>Data</h5>We defend the data rights of businesses and
+                                                                individuals.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_employ">
+                                                            <img src="images/4.jpg" alt="Imagen 2">
+                                                            <div class="text">
+                                                                <h5>Investigations</h5>Intelligent and incisive,
+                                                                minimising disruption.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_employ">
+                                                            <img src="images/5.jpg" alt="Imagen 3">
+                                                            <div class="text">
+                                                                <h5>Regulatory</h5>We understand the high stakes
+                                                                involved in building the right.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_employ">
+                                                            <img src="images/15.jpg" alt="Imagen 4">
+                                                            <div class="text">
+                                                                <h5>Mishcon Purpose</h5>Managing risk, creating value,
+                                                                transitioning to sustainability.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <li><a href="#"
+                                                    onmouseover="showDiv(container_future); hideDiv(container_private); hideDiv(container_employ); hideDiv(container_dispute)"
+                                                    style="cursor: pointer;">Mishcon Future</a></li>
+                                            <div id="container_future" onmouseover="showDiv(container_future)"
+                                                onmouseleave="hideDiv(container_future)">
+                                                <div id="sub-container_future">
+                                                    <div id="links_future">
+                                                        <div class="links-column_future">
+                                                            <a href="#">Health and Safety</a>
+                                                            <a href="#">Finance and Banking Disputes</a>
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Fraud</a>
+                                                            <a href="#">Insolvency and Restructuring</a>
+                                                            <a href="#">Insurance</a>
+                                                            <a href="#">Private Wealth Disputes</a>
+                                                        </div>
+                                                        <div class="links-column_future">
+                                                            <a href="#">Anti Money Laundering</a>
+                                                            <a href="#">Charities, Social Ventures and Philanthropy</a>
+                                                            <a href="#">Commercial Litigation</a>
+                                                            <a href="#">Competition Law</a>
+                                                            <a href="#">Construction</a>
+                                                            <a href="#">Director and Shareholder Disputes</a>
+                                                            <a href="#">Extradition</a>
+                                                        </div>
+                                                        <div class="links-column_future">
+                                                            <a href="#">Health and Safety</a>
+                                                            <a href="#">Finance and Banking Disputes</a>
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Fraud</a>
+                                                            <a href="#">Insolvency and Restructuring</a>
+                                                            <a href="#">Insurance</a>
+                                                            <a href="#">Private Wealth Disputes</a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="images_future">
+                                                        <div class="image-with-text_future">
+                                                            <img src="images/14.jpeg" alt="Imagen 1">
+                                                            <div class="text">
+                                                                <h5>Fraud</h5>We defend the data rights of businesses
+                                                                and
+                                                                individuals.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_future">
+                                                            <img src="images/10.png" alt="Imagen 2">
+                                                            <div class="text">
+                                                                <h5>Insurance</h5>Intelligent and incisive,
+                                                                minimising disruption.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <li><a href="#"
+                                                    onmouseover="showDiv(container_private); hideDiv(container_employ); hideDiv(container_future); hideDiv(container_dispute)"
+                                                    style="cursor: pointer;">Private</a></li>
+                                            <div id="container_private" onmouseover="showDiv(container_private)"
+                                                onmouseleave="hideDiv(container_private)">
+                                                <div id="sub-container_private">
+                                                    <div id="links_private">
+                                                        <div class="links-column_private">
+                                                            <a href="#">Anti Money Laundering</a>
+                                                            <a href="#">Charities, Social Ventures and Philanthropy</a>
+                                                            <a href="#">Commercial Litigation</a>
+                                                            <a href="#">Competition Law</a>
+                                                            <a href="#">Construction</a>
+                                                            <a href="#">Extradition</a>
+                                                        </div>
+                                                        <div class="links-column_private">
+                                                            <a href="#">Health and Safety</a>
+                                                            <a href="#">Finance and Banking Disputes</a>
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Fraud</a>
+                                                            <a href="#">Insurance</a>
+                                                            <a href="#">Private Wealth Disputes</a>
+                                                        </div>
+                                                        <div class="links-column_private">
+                                                            <a href="#">Inquests and Inquiries</a>
+                                                            <a href="#">Fraud</a>
+                                                            <a href="#">Insolvency and Restructuring</a>
+                                                            <a href="#">Charities, Social Ventures and Philanthropy</a>
+                                                            <a href="#">Competition Law</a>
+                                                            <a href="#">Construction</a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div id="images_private">
+                                                        <div class="image-with-text_private">
+                                                            <img src="images/8.png" alt="Imagen 1">
+                                                            <div class="text">
+                                                                <h5>Investigations</h5>Intelligent and incisive,
+                                                                minimising disruption.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_private">
+                                                            <img src="images/city.png" alt="Imagen 2">
+                                                            <div class="text">
+                                                                <h5>Mishcon Purpose</h5>Managing risk, creating value,
+                                                                transitioning to sustainability.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_private">
+                                                            <img src="images/mdr.png" alt="Imagen 3">
+                                                            <div class="text">
+                                                                <h5>Regulatory</h5>We understand the high stakes
+                                                                involved in building the right.
+                                                            </div>
+                                                        </div>
+                                                        <div class="image-with-text_private">
+                                                            <img src="images/3.jpg" alt="Imagen 4">
+                                                            <div class="text">
+                                                                <h5>Data</h5>We defend the data rights of businesses and
+                                                                individuals.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <li><a href="#"
+                                                    onmouseover=" hideDiv(container_employ); hideDiv(container_future); hideDiv(container_dispute); hideDiv(container_private)"
+                                                    style="cursor: pointer;">Real Estate</a></li>
+                                            <li><a href="#"
+                                                    onmouseover=" hideDiv(container_employ); hideDiv(container_future); hideDiv(container_dispute); hideDiv(container_private)"
+                                                    style="cursor: pointer;">Mishcon Purpose</a></li>
+                                            <li class="special-item"><a href="#"
+                                                    onmouseover=" hideDiv(container_employ); hideDiv(container_future); hideDiv(container_dispute); hideDiv(container_private)"
+                                                    style="cursor: pointer;">Singapore</a></li>
+                                            <li><a href="#"
+                                                    onmouseover=" hideDiv(container_employ); hideDiv(container_future); hideDiv(container_dispute); hideDiv(container_private)"
+                                                    style="cursor: pointer;">MDR Group</a></li>
+                                            <li><a href="#"
+                                                    onmouseover=" hideDiv(container_employ); hideDiv(container_future); hideDiv(container_dispute); hideDiv(container_private)"
+                                                    style="cursor: pointer;">Sectors</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">About Us</a>
+                            <div class="dropdown-content1" id="dropdownContentAbout">
+                                <div class="contenido-about">
+                                    <div class="about-text">
+                                        <p>We now employ more than 1200 people with over
+                                            600 lawyers offering a wide range of legal services
+                                            to companies and individuals.
+                                        </p>
+                                    </div>
+                                    <div class="about-links">
+                                        <ul id="list-about-links">
+                                            <li><a href="#">
+                                                    <h5>About us</h5>
+                                                    <p>We are here to help our clients benefit </p>
+                                                </a></li>
+                                            <li><a href="#">
+                                                    <h5>Equity, Diversity and Inclusion</h5>
+                                                    <p>The Equity, Diversity and Inclusion Committee</p>
+                                                </a></li>
+                                            <li><a href="#">
+                                                    <h5>Innovative Client Service</h5>
+                                                    <p>Since 2014, working with an independent research</p>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="about-links">
+                                        <ul id="list-about-links">
+                                            <li><a href="#">
+                                                    <h5>International</h5>
+                                                    <p>An international community of clients</p>
+                                                </a></li>
+                                            <li><a href="#">
+                                                    <h5>Impact</h5>
+                                                    <p>Impacting society positively</p>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="about-image">
+                                        <img src="images/15.jpg" alt="About Image">
+                                        <h5>Mishcon Purpose</h5>
+                                        <p>Managing risk, creating value, transitioning to sustainability</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdownPeople">
+                            <a href="#">People</a>
+                            <div class="dropdown-content_People" id="dropdownContentPeople">
+                                <div class="contenido-people">
+                                    <div class="people-text">
+                                        <p>Mishcon de Reya has over 220 Partners and Legal
+                                            Directors and over 700 fee-earners in total.
+                                        </p>
+                                    </div>
+                                    <div class="people-links">
+                                        <ul id="list-people-links">
+                                            <li><a href="#">
+                                                    <h5>Corporate</h5>
+                                                    <p>Key contact: Kevin McCarthy</p>
+                                                </a></li>
+                                            <li><a href="#">
+                                                    <h5>Dispute Resolution</h5>
+                                                    <p>Key contact: Hugo Plowman</p>
+                                                </a></li>
+                                            <li><a href="#">
+                                                    <h5>Innovation</h5>
+                                                    <p>Key contact: Jeremy Hertzog</p>
+                                                </a></li>
+                                            <li><a href="#">
+                                                    <h5>Employment</h5>
+                                                    <p>Key contact: Daniel Naftalin</p>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="people-links">
+                                        <ul id="list-people-links">
+                                            <li><a href="#">
+                                                    <h5>Dispute Resolution</h5>
+                                                    <p>Key contact: Hugo Plowman</p>
+                                                </a></li>
+                                            <li><a href="#">
+                                                    <h5>Innovation</h5>
+                                                    <p>Key contact: Jeremy Hertzog</p>
+                                                </a></li>
+                                            <li><a href="#">
+                                                    <h5>Employment</h5>
+                                                    <p>Key contact: Daniel Naftalin</p>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="people-image">
+                                        <p>Type here if you know the name of the staff member.</p>
+                                        <input type="text" id="staff-name-input" placeholder="Type name..." />
+                                        <p>Our central switchboard, available 24 hours a day, can be reached on +44 20 3321 7000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">Latest</a></li>
+                        <li><a href="#">Join us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form class="search-form" action="#" method="get">
+                        <input type="text" name="search" placeholder="How can we help you?">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main_id">
+            <div class="foto_man">
+                <img src="images/man.png" alt="picture man">
+                <hr>
+                <img src="images/people.png" alt="picture people">
+                <img src="images/people2.png" alt="picture people2">
+                <img src="images/people3.png" alt="picture people3">
+            </div>
+    </main>
+
+
+
+    <!--importa librería FontAwesome para iconos -->
+    <script src="https://kit.fontawesome.com/9eaba1337f.js" crossorigin="anonymous"></script>
+    <!-- Comportamiento scroll-barra nav -->
+    <script src="script.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="logoFooter">
+                <a href="#"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="panel">
+                <h3>Navigate</h3>
+                <ul id="list-panel">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">Join us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="panel">
+                <h3>Locations</h3>
+                <ul id="list-panel">
+                    <li><a href="#">United Kindom</a></li>
+                    <li><a href="#">London</a></li>
+                    <li><a href="#">Cambridge</a></li>
+                    <li><a href="#">Oxford</a></li>
+                    <li><a href="#">Hong Kong</a></li>
+                    <li><a href="#">Singapore</a></li>
+                </ul>
+            </div>
+            <div class="panel">
+                <h3>Browse</h3>
+                <ul id="list-panel">
+                    <li><a href="#">MDR Lab</a></li>
+                    <li><a href="#">MDR Lab one</a></li>
+                    <li><a href="#">MDR Lab two</a></li>
+                    <li><a href="#">MDR Lab three</a></li>
+                    <li><a href="#">MDR Lab four</a></li>
+                    <li><a href="#">MDR Lab five</a></li>
+                </ul>
+            </div>
+            <div class="panel">
+                <ul class="no-heading" id="list-panel">
+                    <li><a href="#">MDR Solutions I</a></li>
+                    <li><a href="#">MDR Ventures</a></li>
+                    <li><a href="#">Mishcon Academy</a></li>
+                    <li><a href="#">Mishcon Graduates</a></li>
+                    <li><a href="#">Jazz Sharpers</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- SubFooter -->
+        <div class="subfooter">
+            <div class="subfooter-content">
+                <div class="subfooter-content1">
+                    <ul id="list-subfooter-content">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">COVID-19</a></li>
+                        <li><a href="#">Frauds and Scams</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">RSS Feed</a></li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Statement on Slavery and Human Trafficking</a></li>
+                        <li><a href="#">Tax Strategy</a></li>
+                        <li><a href="#">Terms of Business</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Staff</a></li>
+                    </ul>
+                </div>
+                <div class="subfooter-content2">
+                    <p>Mishcon de Reya LLP is an alternative business structure. It became a limited liability
+                        partnership on 9 October 2015. Copyright ©2023 Mishcon de Reya LLP</p>
+                </div>
+            </div>
+            <div class="icons_rrss">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
